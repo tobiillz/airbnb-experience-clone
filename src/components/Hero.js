@@ -1,12 +1,12 @@
 import React from 'react';
 import image1 from '../images/Group 77.png'
-import '../App.css'
+import '../App.css';
 
 function Hero() {
   return <div className='hero'>
       <div>
           <div className='image-group'>
-              <img src={image1} alt="group-image" className='group-image'/>
+              <img src={image1} alt="group-image" className='group-images'/>
           </div>
           <div className='text-group'>
               <h2 className="hero-title">Online Experience</h2>

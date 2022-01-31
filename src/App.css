@@ -18,7 +18,7 @@ body{
   display: flex;
   flex-direction: column;
 }
-.group-image{
+.group-images{
   display: flex;
   margin: 0 auto;
   margin-top: 26px;
@@ -39,18 +39,18 @@ body{
   font-style: normal;
 }
 
-
 /* Card design */
 .card{
   width: 175px;
   font-size: 12px;
+  margin-left: 40px;
+
 }
-.card-template{
+.card-image{
   width:175px;
   height: 235px;
-  background-image: url('../src/images/image 12.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 .btn{
   background: oldlace;
