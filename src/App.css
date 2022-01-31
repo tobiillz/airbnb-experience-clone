@@ -38,3 +38,34 @@ body{
   font-weight: 600;
   font-style: normal;
 }
+
+
+/* Card design */
+.card{
+  width: 175px;
+  font-size: 12px;
+}
+.card-template{
+  width:175px;
+  height: 235px;
+  background-image: url('../src/images/image 12.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn{
+  background: oldlace;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px ;
+}
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+.card-star{
+  height: 14px;
+}
+.grey{
+  color: #918E9B;
+}
