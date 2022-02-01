@@ -6,9 +6,9 @@ import image12 from '../images/image 12.png';
 function Card({img, rating , number, country, description, price}) {
   return <div className='card'>
       <img src={img} className='card-image' alt=''/>
-      <button className='btn'>
+      {/* <button className='btn'>
         SOLD OUT 
-      </button>
+      </button> */}
       <div className='card-stats'>
             <img src={star} alt="star" className='card-star' />
             <span>{rating}</span>

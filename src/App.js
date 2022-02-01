@@ -15,7 +15,7 @@ function App() {
           rating = "5.0"
           number = "6"
           country = "USA"
-          desription = "Life Lesson from Katie Zafereys"
+          description = "Life Lesson from Katie Zafereys"
           price = "136"        
         />
 
