@@ -1,13 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-function Card({coverImg, rating , reviewCount, country, title, price}) {
+function Card({coverImg, rating , reviewCount, country, title, price, openSpots}) {
   
+
   return <div className='card'>
+      {openSpots === 0 && <div className='card-badge'>SOLD OUT </div>}
       <img src={coverImg} className='card-image' alt=''/>
-      <button className='btn'>
-        SOLD OUT 
-      </button> 
       <div className='card-stats'>
             <img src='../images/Star 1.png' alt="star" className='card-star' />
             <span>{rating}</span>
