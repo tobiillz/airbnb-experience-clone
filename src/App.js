@@ -3,29 +3,29 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Card from './components/Card';
-import image12 from './images/image12.png';
 import CardDetails from './components/CardDetails';
-
 
 function App() {
   let details = CardDetails.map(item =>
       <Card
-        img = {item.img}
-        rating = {item.rating}
-        number = {item.number}
+        key = {item.id}
+        coverImg = {item.coverImg}
+        rating = {item.stats.rating}
+        reviewCount = {item.stats.reviewCount}
         country = {item.country}
-        description = {item.description}
+        title = {item.title}
         price = {item.price}
-      />
+      />  
   )
   
-  console.log(details)
 
   return (
     <div className="App">
         <Header/>
         <Hero/>
-        {details}
+        <section className='card-list'>
+              {details}
+        </section>
         {/* <Card
           img = {image12}
           rating = {5.0}
