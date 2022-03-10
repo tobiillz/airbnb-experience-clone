@@ -42,36 +42,5 @@ export default [
         openSpots: 3,
         country : "USA"
     }
-]
-
-
-
-// let CardDetails = [{
-//     img :'../images/image12.png',
-//     rating : 5.0,
-//     number : 6,
-//     country : "USA",
-//     description : "Life Lesson from Katie Zafereys",
-//     price : 136
-//     },
-//     {
-//     img :'../images/wedding-photography.png',
-//     rating : 5.0,
-//     number : 30,
-//     country : "USA",
-//     description : "Learn wedding photography",
-//     price : 125
-//     },
-//     {
-//     img :'../images/mountain-bike.png',
-//     rating : 4.8,
-//     number : 2,
-//     country : "USA",
-//     description : "Group Mountain Biking",
-//     price : 50
-//     }
-// ]
-
-// export default CardDetails;
-
+];
 

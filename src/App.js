@@ -9,11 +9,12 @@ function App() {
   let details = CardDetails.map(item =>
       <Card
         key = {item.id}
-        item ={item}
+        // item ={item}
+        // or
+        {...item}
       />  
   )
   
-
   return (
     <div className="App">
         <Header/>
@@ -21,14 +22,7 @@ function App() {
         <section className='card-list'>
               {details}
         </section>
-        {/* <Card
-          img = {image12}
-          rating = {5.0}
-          number = {6}
-          country = "USA"
-          description = "Life Lesson from Katie Zafereys"
-          price = {136}
-        /> */}
+      
 
     </div>
   );
